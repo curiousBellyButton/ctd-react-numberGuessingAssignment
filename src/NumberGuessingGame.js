@@ -3,10 +3,7 @@ import GuessControl from "./GuessControl";
 import GuessMessage from "./GuessMessage";
 import GameOver from "./GameOver";
 
-/**
- *
- * Returns a random integer number from 1-100 inclusive
- */
+
 function getRandomNumber() {
   return Math.floor(Math.random() * 100) + 1;
 }
